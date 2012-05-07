@@ -7,7 +7,6 @@ def build(ctx):
         '-fomit-frame-pointer',
         '-fvisibility-inlines-hidden',
         '-fvisibility=hidden',
-        '-flto',
         '-Wall',
         '-Werror',
         '-std=c++0x',
