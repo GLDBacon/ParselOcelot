@@ -9,7 +9,7 @@ See https://github.com/ParselTrack/Specifications for the latest version of the 
 ```
 ~$ export OCELOT_SRC_DIR="/opt/ParselOcelot"
 ~$ export OCELOT_INSTALL_DIR="/usr/bin"
-~$ sudo apt-get install libboost-system-dev libboost-thread-dev libev-dev
+~$ sudo apt-get install libboost-system-dev libboost-thread-dev libboost-program-options-dev libev-dev
 ~$ git clone git://github.com/ParselTrack/ParselOcelot.git $OCELOT_SRC_DIR
 ~$ cd $OCELOT_SRC_DIR
 ~$ editor src/config.h
